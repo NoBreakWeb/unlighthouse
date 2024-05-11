@@ -4,9 +4,6 @@ const config = useRuntimeConfig().public
 
 <template>
   <footer class="flex items-center justify-between gap-1.5">
-    <div class="flex items-baseline gap-1.5 text-sm text-center text-gray-500 dark:text-gray-400">
-      Made with <a href="https://ui.nuxtlabs.com/" class="text-primary">Nuxt UI</a>.
-    </div>
 
     <div class="flex items-center gap-3 -my-1">
       <div class="flex lg:hidden items-center gap-1.5">

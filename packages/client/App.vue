@@ -98,13 +98,9 @@ useTitle(`${website.replace(/https?:\/\/(www.)?/, '')} | Unlighthouse`)
           <lighthouse-three-d v-if="!isStatic" class="mb-7" />
           <div class="px-2 text-center 2xl:text-left">
             <div class="text-xs opacity-75 2xl:mt-4">
-              <a href="https://unlighthouse.dev" target="_blank" class="underline hover:no-underline">Documentation</a>
               <btn-action v-if="!isStatic" class="underline hover:no-underline ml-3" @click="openDebugModal">
                 Debug
               </btn-action>
-            </div>
-            <div class="text-xs opacity-75 2xl:mt-4">
-              Made with <i-simple-line-icons-heart title="Love" class="inline" /> by <a href="https://twitter.com/harlan_zw" target="_blank" class="underline hover:no-underline">@harlan_zw</a>
             </div>
             <div class="text-xs opacity-50 2xl:mt-4 mt-1">
               Portions of this report use Lighthouse. For more information visit <a href="https://developers.google.com/web/tools/lighthouse" class="underline hover:no-underline">here</a>.
@@ -316,14 +312,7 @@ useTitle(`${website.replace(/https?:\/\/(www.)?/, '')} | Unlighthouse`)
     </div>
     <footer class="block 2xl:hidden my-2">
       <div class="px-2 text-center 2xl:text-left">
-        <div class="flex items-center justify-around">
-          <div class="text-xs opacity-75 2xl:mt-4">
-            <a href="https://unlighthouse.dev" target="_blank" class="underline">Unlighthouse</a>
-          </div>
-          <div class="text-xs opacity-75 2xl:mt-4">
-            Made with <i-simple-line-icons-heart title="Love" class="inline" /> by <a href="https://twitter.com/harlan_zw" target="_blank" class="underline">@harlan_zw</a>
-          </div>
-        </div>
+       
         <div class="text-xs opacity-50 2xl:mt-4 mt-1">
           Portions of this report use Lighthouse. For more information visit <a href="https://developers.google.com/web/tools/lighthouse" class="underline">here</a>.
         </div>
