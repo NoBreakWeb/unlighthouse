@@ -44,6 +44,9 @@
       }
     }
   },
+  "publishConfig": {
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  },
   "resolutions": {
     "typescript": "5.3.3"
   }
