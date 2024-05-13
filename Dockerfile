@@ -1,4 +1,4 @@
-FROM alpine
+FROM --platform=linux/amd64 alpine
 
 RUN apk add --no-cache \
       chromium \
@@ -11,7 +11,7 @@ RUN apk add --no-cache \
 RUN apk add nodejs npm; \
     npm install -g pnpm
 
-
+ENV COREPACK_ENABLE_STRICT=0
 WORKDIR /usr/app
 COPY . .
 RUN pnpm install

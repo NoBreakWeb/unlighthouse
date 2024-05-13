@@ -30,20 +30,6 @@
     "vite": "^5.2.11",
     "vitest": "^1.6.0"
   },
-  "pnpm": {
-    "packageExtensions": {
-      "puppeteer-cluster": {
-        "peerDependencies": {
-          "puppeteer-core": "*"
-        },
-        "peerDependenciesMeta": {
-          "puppeteer": {
-            "optional": true
-          }
-        }
-      }
-    }
-  },
   "publishConfig": {
     "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
   },
